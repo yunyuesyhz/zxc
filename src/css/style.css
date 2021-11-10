@@ -1,0 +1,247 @@
+* {
+    font-family: PingFangSC-Regular, Arial, Microsoft YaHei;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 111.2px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    text-align: left;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    color: #333;
+}
+
+.forms {
+    padding-bottom: 0.7rem;
+    border-top: 0.1rem solid #ededed;
+}
+
+.forms .toptabla {
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-bottom: 0.1rem;
+}
+
+.forms .toptabla .toptabla_con {
+    height: 100%;
+    padding: 10px;
+    background: #fff;
+    justify-content: space-between;
+}
+
+.forms .toptabla .toptabla_con,
+.forms .toptabla .toptabla_con .formsTop_left {
+    display: flex;
+    align-items: center;
+}
+
+.forms .toptabla .toptabla_con .formsTop_left>p {
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 700;
+    color: #333;
+    margin-left: 5px;
+}
+
+.forms .toptabla .toptabla_con .toptabla_img {
+    width: 9px;
+    height: 5px;
+}
+
+.formList {
+    background-color: #fff;
+}
+
+.pluginnames {
+    width: 100%;
+    min-height: 42px;
+    line-height: 22px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: rgba(47, 99, 164, 0.05);
+}
+
+.plugin-allbox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.dplugin-box {
+    background-color: #fff;
+    padding: 13px 15px;
+}
+
+.forms .wxformbtn {
+    width: 100%;
+    height: 0.6rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 2;
+    display: flex;
+}
+
+.forms .wxformbtn button.active {
+    border: 0.01rem solid #4285f4;
+    background: #fff;
+    color: #4285f4;
+}
+
+.forms .wxformbtn button {
+    width: calc(33% - 0.15rem);
+    height: 0.4rem;
+    margin: 0.1rem 0.08rem 0 0.08rem;
+    color: #fff;
+    background: #4285f4;
+    border: 0;
+    border-radius: 0.1rem;
+    font-size: 0.15rem;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.m_start_btn button {
+    border-radius: 0.2rem !important;
+    margin: 0.1rem 0.05rem 0 0.05rem !important;
+}
+
+.m_start_btn .wxformbtn_center {
+    display: flex;
+    flex: 4;
+}
+
+.glass[data-v-fe143b6a] {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 4px 4px 30px 0 rgba(27, 0, 37, 0.4);
+}
+
+div.backgroundDiv[data-v-fe143b6a] {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(135deg, #75f0db, #75dbf0, #8a75f0, #f075c7);
+    background-size: 200% 200%;
+    -webkit-animation: gradient-move-fe143b6a 10s ease infinite alternate;
+    animation: gradient-move-fe143b6a 10s ease infinite alternate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes gradient-move-fe143b6a {
+    0% {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+@keyframes gradient-move-fe143b6a {
+    0% {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+div.backgroundDiv div.piContainer[data-v-fe143b6a] {
+    width: 280px;
+    height: 350px;
+    border-radius: 30px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.backgroundDiv div.piContainer div.chooseAPhoto[data-v-fe143b6a] {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+div.backgroundDiv div.piContainer div.inputBlock[data-v-fe143b6a] {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+div.backgroundDiv div.piContainer div.inputBlock span[data-v-fe143b6a] {
+    margin-right: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div.backgroundDiv div.piContainer div.inputBlock input[data-v-fe143b6a] {
+    letter-spacing: 1px;
+    outline: none;
+    border: 0;
+    color: #fff;
+    background-color: transparent;
+}
+
+div.backgroundDiv div.piContainer select[data-v-fe143b6a] {
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 9px 10px;
+    border-radius: 15px;
+}
+
+div.backgroundDiv div.button[data-v-fe143b6a] {
+    width: 280px;
+    margin-top: 20px;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.5s ease-out;
+}
+
+div.backgroundDiv div.button[data-v-fe143b6a]:active {
+    background-color: rgba(0, 0, 0, 0.7);
+}
